@@ -9,6 +9,7 @@ const menuData = [
       { id: 'thai', nameEn: 'Thai Therapy', nameVi: 'Trị liệu kiểu Thái', descEn: 'A traditional Thailand therapy using stretching techniques.', descVi: 'Trị liệu truyền thống Thái Lan sử dụng kỹ thuật kéo giãn.', options: [{id: 'thai-60', duration: 60, price: 550}, {id: 'thai-90', duration: 90, price: 750}, {id: 'thai-120', duration: 120, price: 950}] },
       { id: 'viet', nameEn: 'Traditional Vietnamese Therapy', nameVi: 'Trị liệu truyền thống Việt Nam', descEn: 'Traditional therapy to relieve muscle tension and stimulate circulation.', descVi: 'Trị liệu truyền thống giúp giảm căng cơ và kích thích tuần hoàn.', options: [{id: 'viet-60', duration: 60, price: 600}, {id: 'viet-90', duration: 90, price: 800}, {id: 'viet-120', duration: 120, price: 1000}] },
       { id: 'adv', nameEn: 'Advanced Body Treatment', nameVi: 'Trị liệu cơ thể chuyên sâu', descEn: 'Deep therapy for chronic muscle tension and fatigue.', descVi: 'Trị liệu sâu cho căng cơ mãn tính và mệt mỏi.', options: [{id: 'adv-60', duration: 60, price: 700}, {id: 'adv-90', duration: 90, price: 1000}, {id: 'adv-120', duration: 120, price: 1300}] }
+      { id: 'herbdex', nameEn: 'Herbal Body Detoxification Massage', nameVi: 'Trị liệu thải độc cơ thể', descEn: '', descVi: '', options: [{id: 'herbdex-60', duration: 60, price: 600}, {id: 'herbdex-90', duration: 90, price: 850}, {id: 'herbdex-120', duration: 120, price: 1100}] }
     ]
   },
   {
@@ -22,7 +23,7 @@ const menuData = [
   {
     id: 'stone', categoryEn: 'Hot Stone', categoryVi: 'Đá nóng',
     items: [
-      { id: 'stone-full', nameEn: 'Full Body Hot Stone', nameVi: 'Đá nóng toàn thân', descEn: '', descVi: '', options: [{id: 'stone-full-0', duration: 60, price: 700}] },
+      { id: 'stone-full', nameEn: 'Full Body Hot Stone', nameVi: 'Đá nóng toàn thân', descEn: '', descVi: '', options: [{id: 'stone-full-700', duration: 60, price: 700}] },
       { id: 'stone-back', nameEn: 'Back Or Foot Hot Stone', nameVi: 'Đá nóng lưng hoặc chân', descEn: '', descVi: '', options: [{id: 'stone-back-0', duration: null, price: 450}] }
     ]
   },
@@ -32,8 +33,7 @@ const menuData = [
       { id: 'hand', nameEn: 'Hand Therapy', nameVi: 'Trị liệu tay nhẹ', descEn: '', descVi: '', options: [{id: 'hand-30', duration: 30, price: 200}, {id: 'hand-60', duration: 60, price: 400}, {id: 'hand-90', duration: 90, price: 600}] },
       { id: 'foot-oil', nameEn: 'Foot Therapy With Oil', nameVi: 'Trị liệu chân với dầu', descEn: '', descVi: '', options: [{id: 'foot-oil-30', duration: 30, price: 250}, {id: 'foot-oil-60', duration: 60, price: 450}, {id: 'foot-oil-90', duration: 90, price: 650}] },
       { id: 'foot-treat', nameEn: 'Therapeutic Foot Treatment', nameVi: 'Trị liệu chân chuyên sâu', descEn: '', descVi: '', options: [{id: 'foot-treat-30', duration: 30, price: 300}, {id: 'foot-treat-60', duration: 60, price: 550}, {id: 'foot-treat-90', duration: 90, price: 750}] },
-      { id: 'foot-total', nameEn: 'Total Foot Therapy', nameVi: 'Trị liệu toàn bàn chân', descEn: '', descVi: '', options: [{id: 'foot-total-90', duration: 90, price: 550}] },
-      { id: 'foot-dead', nameEn: 'Foot Dead Skin Removal', nameVi: 'Tẩy ủ chân', descEn: '', descVi: '', options: [{id: 'foot-dead-30', duration: 30, price: 250}] }
+      { id: 'foot-total', nameEn: 'Total Foot Therapy', nameVi: 'Tẩy, ủ, chà và massage chân', descEn: 'Massage, Scrub, Wrap', descVi: '', options: [{id: 'foot-total-60', duration: 60, price: 500}] },
     ]
   },
   {
@@ -58,6 +58,7 @@ const menuData = [
       { id: 'nail-rem', nameEn: 'Gel Removal', nameVi: 'Phá Gel', descEn: '', descVi: '', options: [{id: 'nail-rem-0', duration: null, price: 150}] },
       { id: 'nail-man', nameEn: 'Manicure', nameVi: 'Cắt, tẩy, ủ móng tay', descEn: '', descVi: '', options: [{id: 'nail-man-0', duration: null, price: 200}] },
       { id: 'nail-pre', nameEn: 'Predicure', nameVi: 'Cắt, tẩy, ủ móng chân', descEn: '', descVi: '', options: [{id: 'nail-pre-0', duration: null, price: 200}] },
+      { id: 'nail-prewrap', nameEn: 'Predicure and Wrap', nameVi: 'Cắt, tẩy, ủ, chà móng chân', descEn: '', descVi: '', options: [{id: 'nail-prewrap-0', duration: null, price: 300}] },
       { id: 'nail-class', nameEn: 'Classic Nail Polish', nameVi: 'Sơn thường', descEn: '', descVi: '', options: [{id: 'nail-class-0', duration: null, price: 300}] },
       { id: 'nail-gel', nameEn: 'Gel Polish', nameVi: 'Sơn Gel', descEn: '', descVi: '', options: [{id: 'nail-gel-0', duration: null, price: 400}] },
       { id: 'nail-des', nameEn: 'Nail Design', nameVi: 'Thiết kế nail', descEn: '', descVi: '', options: [{id: 'nail-des-0', duration: null, price: 800}] },
