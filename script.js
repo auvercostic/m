@@ -101,7 +101,7 @@ const menuData = [
     ]
   },
     {
-    id: 'scrub', categoryEn: 'Herbal Body Scrub & Wrap', categoryVi: 'Tẩy ủ body thảo dược',
+    id: 'scrub', categoryEn: 'Body Skin Care', categoryVi: 'Tẩy da chết toàn thân',
     items: [
       { id: 'scrub-wrap-her', nameEn: 'Herbal Exfoliation And Body Wrap', nameVi: 'Tẩy ủ da body thảo dược', descEn: '', descVi: '', options: [{id: 'scrub-wrap-60', duration: 60, price: 500}] },
       { id: 'scrub-wrap-salt', nameEn: 'Salt Exfoliation And Body Wrap', nameVi: 'Tẩy ủ da body bằng muối', descEn: '', descVi: '', options: [{id: 'scrub-wrap-60', duration: 60, price: 500}] },
