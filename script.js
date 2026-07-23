@@ -39,8 +39,8 @@ const menuData = [
   {
     id: 'hair', categoryEn: 'Hair Wash', categoryVi: 'Gội đầu',
     items: [
-      { id: 'hair-wash', nameEn: 'Hair Washing', nameVi: 'Gội thường', descEn: 'Drying only, no styling', descVi: 'Chỉ sấy khô, không tạo kiểu', options: [{id: 'hair-wash-30', duration: 30, price: 200}] },
-      { id: 'hair-nourish', nameEn: 'Nourishing Hair Wash', nameVi: 'Gội dưỡng sinh', descEn: '', descVi: '', options: [{id: 'hair-nourish-30', duration: 30, price: 300}, {id: 'hair-nourish-60', duration: 60, price: 450}] },
+      { id: 'hair-wash', nameEn: 'Hair Washing', nameVi: 'Gội thường', descEn: 'Drying only, no styling', descVi: 'Chỉ gội', options: [{id: 'hair-wash-30', duration: 30, price: }] },
+      { id: 'hair-nourish', nameEn: 'Nourishing Hair Wash', nameVi: 'Gội dưỡng sinh', descEn: '', descVi: '', options: [{id: 'hair-nourish-30', duration: 30, price: 250}, {id: 'hair-nourish-60', duration: 60, price: 450}] },
       { id: 'hair-herbal', nameEn: 'Herbal Hair Wash', nameVi: 'Gội thảo mộc', descEn: '', descVi: '', options: [{id: 'hair-herbal-60', duration: 60, price: 500}] }
     ]
   },
