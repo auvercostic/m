@@ -7,4 +7,5 @@
 - **gold = green**
 ---
 *All credit goes to Jules Schulz for developing the whole website.*
+
 ©2026 MOCVIA Spa. All rights reserved.
