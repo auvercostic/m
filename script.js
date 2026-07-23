@@ -35,7 +35,8 @@ const menuData = [
       { id: 'hand', nameEn: 'Soft Hand Therapy', nameVi: 'Trị liệu tay nhẹ', descEn: '', descVi: '', options: [{id: 'hand-30', duration: 30, price: 200}, {id: 'hand-60', duration: 60, price: 400}, {id: 'hand-90', duration: 90, price: 600}] },
       { id: 'foot-oil', nameEn: 'Foot Therapy With Oil', nameVi: 'Trị liệu chân với dầu', descEn: '', descVi: '', options: [{id: 'foot-oil-30', duration: 30, price: 250}, {id: 'foot-oil-60', duration: 60, price: 450}, {id: 'foot-oil-90', duration: 90, price: 650}] },
       { id: 'foot-treat', nameEn: 'Therapeutic Foot Treatment', nameVi: 'Trị liệu chân chuyên sâu', descEn: '', descVi: '', options: [{id: 'foot-treat-30', duration: 30, price: 300}, {id: 'foot-treat-60', duration: 60, price: 550}, {id: 'foot-treat-90', duration: 90, price: 750}] },
-      { id: 'foot-total', nameEn: 'Total Foot Therapy', nameVi: 'Tẩy, ủ, chà và massage chân', descEn: 'Massage, Scrub, Wrap', descVi: '', options: [{id: 'foot-total-60', duration: 60, price: 500}] },
+      { id: 'foot-total', nameEn: 'Foot Dead Skin Remover', nameVi: 'Tẩy, ủ chân', descEn: '', descVi: '', options: [{id: 'foot-total-30', duration: 30, price: 250}] },
+      { id: 'foot-total', nameEn: 'Total Foot Therapy', nameVi: 'Tẩy, ủ, chà và massage chân', descEn: 'Massage, Scrub, Wrap', descVi: '', options: [{id: 'foot-total-60', duration: 60, price: 500}] }
     ]
   },
   {
