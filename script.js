@@ -26,7 +26,7 @@ const menuData = [
     items: [
       { id: 'stone-full', nameEn: 'Full Body Hot Stone', nameVi: 'Đá nóng toàn thân', descEn: '', descVi: '', options: [{id: 'stone-full-700', duration: 60, price: 700}] },
       { id: 'stone-back', nameEn: 'Back Hot Stone', nameVi: 'Đá nóng lưng', descEn: '', descVi: '', options: [{id: 'stone-back-0', duration: null, price: 450}] },
-      { id: 'stone-foot', nameEn: 'Foot Hot Stone', nameVi: 'Đá nóng chân', descEn: '', descVi: '', options: [{id: 'stone-foot-0', duration: null, price: 450}] }
+      { id: 'stone-foot', nameEn: 'Foot Hot Stone', nameVi: 'Đá nóng chân', descEn: '', descVi: '', options: [{id: 'stone-foot-0', duration: null, price: 350}] }
     ] 
   },
   {
