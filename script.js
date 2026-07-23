@@ -91,9 +91,11 @@ const menuData = [
   {
     id: 'steam', categoryEn: 'Herbal Steam', categoryVi: 'Xông/Ngâm Thảo dược',
     items: [
-      { id: 'steam-foot', nameEn: 'Foot Herbal Steambath', nameVi: 'Xông thảo dược Chân', descEn: '', descVi: '', options: [{id: 'steam-foot-0', duration: null, price: 200}] },
+      { id: 'steam-foot', nameEn: 'Foot Herbal Steambath', nameVi: 'Xông Chân thảo dược', descEn: '', descVi: '', options: [{id: 'steam-foot-0', duration: null, price: 150}] },
       { id: 'steam-body', nameEn: 'Body Herbal Steambath', nameVi: 'Xông thảo dược Toàn thân', descEn: '', descVi: '', options: [{id: 'steam-body-0', duration: null, price: 250}] },
-      { id: 'steam-bath', nameEn: 'Herbal Bath', nameVi: 'Ngâm tắm thảo dược', descEn: '', descVi: '', options: [{id: 'steam-bath-0', duration: null, price: 250}] }
+      { id: 'steam-foot', nameEn: 'Foot Herbal Steambath', nameVi: 'Ngâm Chân thảo dược', descEn: '', descVi: '', options: [{id: 'steam-foot-0', duration: null, price: 150}] },
+      { id: 'steam-body', nameEn: 'Body Herbal Steambath', nameVi: 'Ngâm thảo dược Toàn thân', descEn: '', descVi: '', options: [{id: 'steam-body-0', duration: null, price: 250}] },
+      { id: 'steam-bath', nameEn: 'Herbal Bath', nameVi: 'Ngâm tắm thảo dược', descEn: '', descVi: '', options: [{id: 'steam-bath-0', duration: null, price: 300}] }
     ]
   },
     {
