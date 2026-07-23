@@ -49,9 +49,10 @@ const menuData = [
   {
     id: 'facial', categoryEn: 'Facial', categoryVi: 'Chăm sóc Da mặt',
     items: [
-      { id: 'face-basic', nameEn: 'Basic Facial Cleaning', nameVi: 'Chăm sóc da cơ bản', descEn: '', descVi: '', options: [{id: 'face-basic-30', duration: 30, price: 350}] },
+      { id: 'face-basic', nameEn: 'Basic Facial Cleaning', nameVi: 'Chăm sóc da cơ bản', descEn: '', descVi: '', options: [{id: 'face-basic-30', duration: 30, price: 300}] },
       { id: 'face-deep', nameEn: 'Deep Cleansing Facial With Mask', nameVi: 'Chăm sóc da chuyên sâu', descEn: '', descVi: '', options: [{id: 'face-deep-60', duration: 60, price: 500}] },
-      { id: 'face-col', nameEn: 'Collagen Facial', nameVi: 'Chăm sóc da collagen', descEn: '', descVi: '', options: [{id: 'face-col-75', duration: 75, price: 700}] }
+      { id: 'face-col', nameEn: 'Collagen Facial', nameVi: 'Chăm sóc da mặt bằng collagen', descEn: '', descVi: '', options: [{id: 'face-col-75', duration: 75, price: 700}] },
+      { id: 'face-her', nameEn: 'Traditional Dao Herbal  Facial Therapy', nameVi: 'Chăm sóc da mặt bằng thảo dược của người Dao', descEn: '', descVi: '', options: [{id: 'face-col-75', duration: 75, price: 700}] }
     ]
   },
   {
