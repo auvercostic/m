@@ -16,8 +16,8 @@ const menuData = [
   {
     id: 'neck', categoryEn: 'Back & Neck & Shoulder', categoryVi: 'Trị liệu Lưng, Cổ, Vai Gáy',
     items: [
-      { id: 'back', nameEn: 'Back Therapy', nameVi: 'Trị liệu lưng', descEn: '', descVi: '', options: [{id: 'back-30', duration: 30, price: 350}, {id: 'back-60', duration: 60, price: 600}] },
-      { id: 'hnb', nameEn: 'Head, Neck, Back & Shoulder Therapy', nameVi: 'Trị liệu đầu, cổ, lưng và vai gáy', descEn: '', descVi: '', options: [{id: 'hnb-30', duration: 30, price: 350}, {id: 'hnb-60', duration: 60, price: 600}] },
+      { id: 'back', nameEn: 'Back Therapy', nameVi: 'Trị liệu lưng', descEn: '', descVi: '', options: [{id: 'back-30', duration: 30, price: 350}, {id: 'back-60', duration: 60, price: 650}] },
+      { id: 'hnb', nameEn: 'Head, Neck, Back & Shoulder Therapy', nameVi: 'Trị liệu đầu, cổ, lưng và vai gáy', descEn: '', descVi: '', options: [{id: 'hnb-30', duration: 30, price: 400}, {id: 'hnb-60', duration: 60, price: 700}] },
       { id: 'headache', nameEn: 'Headache & Insomnia Therapy', nameVi: 'Trị liệu đau đầu và mất ngủ', descEn: '', descVi: '', options: [{id: 'headache-30', duration: 30, price: 400}, {id: 'headache-60', duration: 60, price: 700}] }
     ]
   },
