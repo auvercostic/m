@@ -103,7 +103,9 @@ const menuData = [
     {
     id: 'scrub', categoryEn: 'Herbal Body Scrub & Wrap', categoryVi: 'Tẩy ủ body thảo dược',
     items: [
-      { id: 'scrub-wrap', nameEn: 'Herbal Exfoliation And Body Wrap', nameVi: 'Tẩy ủ da body thảo dược', descEn: '', descVi: '', options: [{id: 'scrub-wrap-30', duration: 30, price: 300}, {id: 'scrub-wrap-60', duration: 60, price: 600}] }
+      { id: 'scrub-wrap-her', nameEn: 'Herbal Exfoliation And Body Wrap', nameVi: 'Tẩy ủ da body thảo dược', descEn: '', descVi: '', options: [{id: 'scrub-wrap-60', duration: 60, price: 500}] },
+      { id: 'scrub-wrap-salt', nameEn: 'Salt Exfoliation And Body Wrap', nameVi: 'Tẩy ủ da body bằng muối', descEn: '', descVi: '', options: [{id: 'scrub-wrap-60', duration: 60, price: 500}] },
+      { id: 'scrub-wrap-cof', nameEn: 'Coffee Exfoliation And Body Wrap', nameVi: 'Tẩy ủ da body cà phê', descEn: '', descVi: '', options: [{id: 'scrub-wrap-60', duration: 60, price: 500}] }
     ]
   }
 ];
