@@ -6,17 +6,6 @@
 
 - **gold = green**
 ---
-**Preview
-
- In English version
-![Main Menu](image-1.png)
-![Booking Info](image-2.png)
-
-
-In Vietnamese version
-![Đặt lịch](image-3.png)
-![Thông tin Đặt lịch](image-4.png)
----
 *All credit goes to Jules Schulz for developing the whole website.* 
 
 ©2026 MOCVIA Spa. All rights reserved.
