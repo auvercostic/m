@@ -1,6 +1,7 @@
 const TELEGRAM_BOT_TOKEN = '8926444206:AAGdnD71dd36n89VJQ_suTnNkkhxQC6LenI';
-const TELEGRAM_CHAT_ID = '8926267205';
-
+const TELEGRAM_CHAT_ID = '8230693625';
+//8926267205
+//8230693625 jules (dev)
 const menuData = [
   {
     id: 'body', categoryEn: 'Body', categoryVi: 'Chăm sóc Cơ thể',
