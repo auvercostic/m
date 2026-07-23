@@ -56,8 +56,8 @@ const menuData = [
     id: 'nail', categoryEn: 'Nail', categoryVi: 'Làm Nail',
     items: [
       { id: 'nail-rem', nameEn: 'Gel Removal', nameVi: 'Phá Gel', descEn: '', descVi: '', options: [{id: 'nail-rem-0', duration: null, price: 150}] },
-      { id: 'nail-man', nameEn: 'Manicure', nameVi: 'Chăm sóc móng tay', descEn: '', descVi: '', options: [{id: 'nail-man-0', duration: null, price: 200}] },
-      { id: 'nail-pre', nameEn: 'Predicure', nameVi: 'Chăm sóc móng chân', descEn: '', descVi: '', options: [{id: 'nail-pre-0', duration: null, price: 200}] },
+      { id: 'nail-man', nameEn: 'Manicure', nameVi: 'Cắt, tẩy, ủ móng tay', descEn: '', descVi: '', options: [{id: 'nail-man-0', duration: null, price: 200}] },
+      { id: 'nail-pre', nameEn: 'Predicure', nameVi: 'Cắt, tẩy, ủ móng chân', descEn: '', descVi: '', options: [{id: 'nail-pre-0', duration: null, price: 200}] },
       { id: 'nail-class', nameEn: 'Classic Nail Polish', nameVi: 'Sơn thường', descEn: '', descVi: '', options: [{id: 'nail-class-0', duration: null, price: 300}] },
       { id: 'nail-gel', nameEn: 'Gel Polish', nameVi: 'Sơn Gel', descEn: '', descVi: '', options: [{id: 'nail-gel-0', duration: null, price: 400}] },
       { id: 'nail-des', nameEn: 'Nail Design', nameVi: 'Thiết kế nail', descEn: '', descVi: '', options: [{id: 'nail-des-0', duration: null, price: 800}] },
